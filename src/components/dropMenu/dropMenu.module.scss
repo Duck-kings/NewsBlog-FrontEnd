@@ -1,0 +1,20 @@
+@import '../../styles/vars';
+
+.search {
+  min-width: $base * 50;
+}
+
+.listItem {
+  width: 100%;
+  display: flex;
+
+  a {
+    padding: $base * 2 $base * 3;
+    flex-grow: 1;
+    color: $primary;
+
+    &:hover {
+      background: $additionalDark;
+    }
+  }
+}

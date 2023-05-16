@@ -1,0 +1,10 @@
+@import '../../styles/vars';
+
+.main {
+  min-height: 100vh;
+  background: $secondary;
+  color: $primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

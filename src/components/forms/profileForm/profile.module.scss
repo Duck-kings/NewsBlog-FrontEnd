@@ -1,0 +1,37 @@
+@import '../../../styles/vars';
+
+.form {
+  background: $secondary;
+  padding: $base * 5 $base * 7;
+  border-radius: $base * 3;
+
+  @media (max-width: $w-sm) {
+    padding: $base * 3 $base * 4;
+  }
+}
+
+.controller {
+  &:global(.MuiFormControl-root) {
+    display: block;
+  }
+}
+
+.form_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $primary;
+  margin-bottom: $base * 5;
+
+  & h3 {
+    @media (max-width: $w-sm) {
+      font-size: 2rem;
+    }
+  }
+}
+
+.box_btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

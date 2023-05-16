@@ -1,0 +1,54 @@
+@import '../../styles/vars';
+
+.header {
+  background: $secondary;
+  padding: $base * 3 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.headerContainer {
+  justify-content: space-between;
+  align-items: center;
+
+  &:global(.MuiContainer-root) {
+    display: flex;
+  }
+
+  & .burgerMenu {
+    @media (min-width: $w-md) {
+      display: none;
+    }
+  }
+}
+
+.formControl {
+  flex-grow: 0.5;
+
+  svg {
+    display: none;
+  }
+
+  & ul {
+    width: 100%;
+    padding: 0;
+    background: $secondary;
+  }
+
+  @media (max-width: $w-md) {
+    flex-grow: 0.9;
+  }
+}
+
+.nav {
+  flex-grow: 0.4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: $w-md) {
+    display: none;
+  }
+}

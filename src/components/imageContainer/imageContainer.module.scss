@@ -1,0 +1,12 @@
+@import '../../styles/vars';
+
+.picture {
+  width: $base * 50;
+  height: $base * 40;
+  object-fit: cover;
+
+  @media (max-width: $w-sm) {
+    width: 100%;
+    height: auto;
+  }
+}

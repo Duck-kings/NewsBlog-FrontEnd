@@ -1,0 +1,13 @@
+@import '../../styles/vars';
+
+.main {
+  padding: $base * 3 0 0 0;
+}
+
+.mainContainer {
+  &:global(.MuiContainer-root) {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,12 @@
+$base: 5px;
+
+$primary: #f1dcc9;
+$secondary: #42313a;
+$additional: #9f4636;
+$additionalDark: #6c2d2c;
+
+/* media query */
+$w-xs: 0px;
+$w-sm: $base * 120;
+$w-md: $base * 180;
+$w-lg: $base * 240;

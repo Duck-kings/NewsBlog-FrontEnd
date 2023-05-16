@@ -1,0 +1,15 @@
+@import '../../styles/vars';
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-top: $base * 3;
+  gap: $base * 5;
+
+  & a {
+    font-size: 1.3rem;
+  }
+}

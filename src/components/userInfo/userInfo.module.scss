@@ -1,0 +1,21 @@
+@import '../../styles/vars';
+
+.userInfo {
+  border-radius: $base * 2;
+  padding: $base * 3 0;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+
+  & a {
+    color: $additional;
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.profileIco {
+  &:global(.MuiSvgIcon-root) {
+    font-size: 2.5rem;
+  }
+}

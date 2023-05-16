@@ -1,0 +1,12 @@
+@import '../../../styles/vars';
+
+.commentForm {
+  margin: $base * 5 0;
+}
+
+.btnContainer {
+  margin-top: $base * 3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
