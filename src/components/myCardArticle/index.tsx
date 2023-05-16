@@ -41,9 +41,7 @@ export const MyCardArticle: React.FC<ArticleDto> = (article) => {
           to={`/myArticles/article/${_id}`}
         >
           <Box>
-            <ImageContainer
-              image={`newsblog-backend-production.up.railway.app/${img}`}
-            />
+            <ImageContainer image={`${import.meta.env.VITE_API_URL}${img}`} />
           </Box>
           <Box className={styles.info}>
             <Typography variant='h4' component='h4'>
