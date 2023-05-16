@@ -1,7 +1,5 @@
 # NewsBlog-FrontEnd
 
-## About
-
 ## Technologies
 TypeScript, React, Mui, React-hook-form, Axios, TanStack Query, Zustand, Yup
 
