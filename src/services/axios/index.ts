@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { AxiosRequestConfig, RawAxiosRequestHeaders } from 'axios';
 
 const instance = axios.create({
-  baseURL: import.meta.env.VITE_API_URL
+  baseURL: 'newsblog-backend-production.up.railway.app/'
 });
 
 type axiosInstance = typeof instance;
